@@ -8,8 +8,6 @@
 
 #include <stdio.h>
 
-
-
 void malloc_t(char string[], char newString[] , int lenght){
     
     for(int i=0; i < lenght; i++){
@@ -58,7 +56,4 @@ int main(int argc, const char * argv[])
     
     return 0;
 }
-
-
-//entonces ingreso texto, eso se guarda en un array de chars, luego uso el metodo malloc para hacer un array de chars con un tamaño mas preciso con el contenido que ingrese y luego un metodo free para vaciar el espacio de ese malloc?
 
